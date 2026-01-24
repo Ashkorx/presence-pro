@@ -17,7 +17,7 @@ substitutions:
     model: "everything-presence-pro"
 
 dashboard_import:
-  package_import_url: github://everythingsmarthome/everything-presence-pro/everything-presence-pro-wifi-ble-co2.yaml@main
+  package_import_url: github://Ashkor/presence-pro/everything-presence-pro-wifi-ble-co2.yaml@main
   import_full_config: false
 
 esp32:
