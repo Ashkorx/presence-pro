@@ -149,8 +149,8 @@ sensor:
 
 i2c:
   - id: bus_a
-    scl: GPIO32
-    sda: GPIO33
+    scl: GPIO5
+    sda: GPIO6
     scan: true
 
 binary_sensor:
@@ -159,7 +159,7 @@ binary_sensor:
     id: pir_motion
     device_class: motion
     pin:
-      number: GPIO36
+      number: GPIO18
     filters:
       - delayed_off: !lambda 'return id(pir_off_delay).state * 1000.0;'
     on_state:
@@ -225,7 +225,7 @@ light:
     id: led_rgb
     rgb_order: GRB
     pin:
-      number: GPIO2
+      number: GPIO17
       ignore_strapping_warning: true
     num_leds: 1
     chipset: sk6812
