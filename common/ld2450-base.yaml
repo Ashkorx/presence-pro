@@ -731,12 +731,12 @@ text:
 uart:
   - id: uart_bus
     tx_pin: 
-      number: GPIO13
+      number: GPIO07
       mode:
         input: true
         pullup: true
     rx_pin: 
-      number: GPIO14
+      number: GPIO08
       mode:
         input: true
         pullup: true
