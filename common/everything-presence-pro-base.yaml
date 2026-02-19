@@ -226,7 +226,6 @@ light:
     rgb_order: GRB
     pin:
       number: GPIO4
-      ignore_strapping_warning: true
     num_leds: 1
     chipset: sk6812
     name: "LED"
