@@ -372,11 +372,9 @@ output:
 uart:
   - id: uart_bus_dfrobot
     tx_pin:
-      number: GPI11
-      ignore_strapping_warning: true
+      number: GPIO11
     rx_pin:
       number: GPIO12
-      ignore_strapping_warning: true
     rx_buffer_size: 512
     baud_rate: 9600
     debug:
