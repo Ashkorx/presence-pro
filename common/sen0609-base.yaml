@@ -9,7 +9,7 @@ binary_sensor:
     id: dfrobot_presence
     device_class: occupancy
     pin:
-      number: GPIO18
+      number: GPIO13
 
 switch:
   - platform: template
