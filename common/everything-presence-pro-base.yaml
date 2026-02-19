@@ -151,7 +151,6 @@ i2c:
   - id: bus_a
     scl: GPIO5
     sda: GPIO6
-    ignore_strapping_warning: true
     scan: true
 
 binary_sensor:
