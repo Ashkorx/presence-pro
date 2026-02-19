@@ -681,7 +681,7 @@ switch:
     name: "Relay Output"
     id: system_alarm_relay
     pin:
-      number: GPIO12
+      number: GPIO16
       inverted: false
 
 number:
