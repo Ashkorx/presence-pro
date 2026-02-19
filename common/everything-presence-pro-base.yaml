@@ -159,7 +159,7 @@ binary_sensor:
     id: pir_motion
     device_class: motion
     pin:
-      number: GPIO18
+      number: GPIO10
     filters:
       - delayed_off: !lambda 'return id(pir_off_delay).state * 1000.0;'
     on_state:
@@ -225,7 +225,7 @@ light:
     id: led_rgb
     rgb_order: GRB
     pin:
-      number: GPIO17
+      number: GPIO4
       ignore_strapping_warning: true
     num_leds: 1
     chipset: sk6812
