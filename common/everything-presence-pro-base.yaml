@@ -683,7 +683,6 @@ switch:
     pin:
       number: GPIO12
       inverted: false
-      ignore_strapping_warning: true
 
 number:
   - platform: template
